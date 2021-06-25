@@ -43,3 +43,17 @@ To run unit tests:
 ```sh
 npm run test
 ```
+
+## References
+
+Parcel
+https://parceljs.org/
+
+Mocha
+https://mochajs.org/
+
+Chai Assertion Library
+https://www.chaijs.com/
+
+ESLint
+https://eslint.org/
