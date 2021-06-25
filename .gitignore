@@ -13,6 +13,7 @@ Icon\?
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache/
+.parcel-cache/
 
 # System config
 /.env
@@ -42,4 +43,4 @@ coverage/
 
 # Distribution Directory
 dist/*
-!dist/index.html
+# !dist/index.html

@@ -10,7 +10,7 @@ First install dependencies:
 npm install
 ```
 
-To run in hot module reloading mode:
+To run in hot module reloading mode for development:
 
 ```sh
 npm start
@@ -19,13 +19,13 @@ npm start
 To create a production build:
 
 ```sh
-npm run build-prod
+npm run build
 ```
 
 ## Running
 
 ```sh
-node dist/bundle.js
+npm start
 ```
 
 ## Linting
