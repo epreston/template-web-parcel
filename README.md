@@ -28,6 +28,14 @@ npm run build-prod
 node dist/bundle.js
 ```
 
+## Linting
+
+To run static code analysis:
+
+```sh
+npm lint
+```
+
 ## Testing
 
 To run unit tests:
