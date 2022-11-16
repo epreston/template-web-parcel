@@ -7,13 +7,13 @@
     {
       "name": "Debug with Chrome",
       "request": "launch",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "url": "http://localhost:1234",
       "webRoot": "${workspaceFolder}"
     },
     {
       "name": "Preview (Simple Web, Chrome)",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "request": "launch",
       // "outFiles": [],
       // "perScriptSourcemaps": "yes",
