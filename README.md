@@ -22,12 +22,6 @@ To create a production build:
 npm run build
 ```
 
-## Running
-
-```sh
-npm start
-```
-
 ## Linting
 
 To run static code analysis:
