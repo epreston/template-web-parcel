@@ -7,6 +7,7 @@
     {
       "name": "Debug with Chrome",
       "request": "launch",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
       "type": "chrome",
       "url": "http://localhost:1234",
       "webRoot": "${workspaceFolder}"
@@ -15,6 +16,7 @@
       "name": "Preview (Simple Web, Chrome)",
       "type": "chrome",
       "request": "launch",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
       // "outFiles": [],
       // "perScriptSourcemaps": "yes",
       "url": "http://localhost:8000",
