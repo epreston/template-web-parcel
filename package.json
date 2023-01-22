@@ -1,11 +1,15 @@
 {
   "name": "empty-project",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Repo Template: parcel, mocha-chai, eslint.",
   "private": true,
+  "type": "module",
   "keywords": [],
   "author": "Ed Preston",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm dist/*",
     "start": "parcel serve ./src/index.html",
