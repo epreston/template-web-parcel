@@ -1,18 +1,19 @@
 {
   "name": "empty-project",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Repo Template: parcel, mocha-chai, eslint.",
   "private": true,
   "type": "module",
   "keywords": [],
-  "author": "Ed Preston",
+  "author": "",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "engines": {
-    "node": ">=16.11.0"
+    "node": ">=16.19.0"
   },
+  "browserslist": "Edge >= 108, Firefox >= 108, FirefoxAndroid  >= 107, Chrome >= 108, ChromeAndroid >= 108, Safari >= 16.1, iOS >= 16.1, not dead",
   "scripts": {
     "clean": "rm dist/*",
     "start": "parcel serve ./src/index.html",
@@ -26,5 +27,6 @@
     "eslint-config-prettier": "^8.6.0",
     "mocha": "^10.2.0",
     "parcel": "2.8.3"
-  }
+  },
+  "packageManager": "npm@8.19.3"
 }
