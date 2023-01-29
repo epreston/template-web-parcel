@@ -15,9 +15,9 @@
   },
   "browserslist": "Edge >= 108, Firefox >= 108, FirefoxAndroid  >= 107, Chrome >= 108, ChromeAndroid >= 108, Safari >= 16.1, iOS >= 16.1, not dead",
   "scripts": {
-    "clean": "rm dist/*",
+    "clean": "rimraf dist/*",
     "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "build": "rimraf dist/* && parcel build ./src/index.html",
     "lint": "eslint src/**/*.js test/**/*.js",
     "test": "mocha"
   },
