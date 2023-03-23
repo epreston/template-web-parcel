@@ -1,6 +1,6 @@
 {
   "name": "empty-project",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Repo Template: parcel, mocha-chai, eslint.",
   "private": true,
   "type": "module",
@@ -11,7 +11,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=16.19.0"
+    "node": ">=18.15.0"
   },
   "browserslist": "Edge >= 108, Firefox >= 108, FirefoxAndroid  >= 107, Chrome >= 108, ChromeAndroid >= 108, Safari >= 16.1, iOS >= 16.1, not dead",
   "scripts": {
@@ -23,10 +23,10 @@
   },
   "devDependencies": {
     "chai": "^4.3.7",
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
     "mocha": "^10.2.0",
     "parcel": "2.8.3"
   },
-  "packageManager": "npm@8.19.3"
+  "packageManager": "npm@9.6.2"
 }
