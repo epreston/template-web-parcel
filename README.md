@@ -2,46 +2,35 @@
 
 Repo Template: parcel, mocha-chai, eslint.
 
-## Building and running on localhost
+## Setup
 
-First install dependencies:
+Download [Node.js](https://nodejs.org/en/download/).
 
-```sh
+Run the following commands:
+
+```bash
+# install dependencies
 npm install
-```
 
-To run in hot module reloading mode for development:
-
-```sh
+# start a local server in development mode
 npm start
 ```
 
-To create a production build:
+## Commands
 
-```sh
-npm run build
-```
-
-## Linting
-
-To run static code analysis:
-
-```sh
-npm run lint
-```
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm run test
-```
+| Action | Command         | Description                                     |
+| ------ | --------------- | ----------------------------------------------- |
+| clean  | `npm run clean` | Clear the production build in the "dist" folder |
+| build  | `npm run build` | Create a production build into "dist"           |
+| start  | `npm run start` | Start a dev server                              |
+| lint   | `npm run lint`  | Run static code analysis                        |
+| test   | `npm run test`  | Run unit tests                                  |
 
 ## References
 
 | Item                   | Reference               |
 | ---------------------- | ----------------------- |
+| Node.js                | https://nodejs.org/     |
 | Parcel                 | https://parceljs.org/   |
 | Mocha                  | https://mochajs.org/    |
 | Chai Assertion Library | https://www.chaijs.com/ |
