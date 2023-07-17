@@ -38,4 +38,4 @@ npm start
 
 ## License
 
-See [License](LICENSE).
+This template is released under the MIT [License](LICENSE).
