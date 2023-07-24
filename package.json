@@ -19,7 +19,7 @@
     "clean": "rimraf dist/*",
     "start": "parcel serve ./src/index.html",
     "build": "rimraf dist/* && parcel build ./src/index.html",
-    "lint": "eslint src/**/*.js test/**/*.js",
+    "lint": "eslint . --ext .js --ignore-path .gitignore",
     "test": "mocha"
   },
   "devDependencies": {
