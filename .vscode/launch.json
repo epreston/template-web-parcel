@@ -5,23 +5,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug with Chrome",
+      "name": "Development",
+      "type": "chrome",
       "request": "launch",
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-      "type": "chrome",
+      // "runtimeArgs": ["--enable-precise-memory-info"],
+      // "perScriptSourcemaps": "yes",
       "url": "http://localhost:1234",
       "webRoot": "${workspaceFolder}"
-    },
-    {
-      "name": "Preview (Simple Web, Chrome)",
-      "type": "chrome",
-      "request": "launch",
-      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-      // "outFiles": [],
-      // "perScriptSourcemaps": "yes",
-      "url": "http://localhost:8000",
-      "webRoot": "${workspaceFolder}/dist",
-      "preLaunchTask": "python3: http.server 8000 start"
+      // "preLaunchTask": "npm: start"
     }
   ]
 }
