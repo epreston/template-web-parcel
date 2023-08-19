@@ -52,5 +52,5 @@ npm start
 This template is released under the MIT [License](LICENSE).
 
 
-[ci-badge]: actions/workflows/ci.yml/badge.svg
-[ci-url]: actions
+[ci-badge]: ./actions/workflows/ci.yml/badge.svg
+[ci-url]: ./actions
