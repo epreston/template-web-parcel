@@ -26,7 +26,7 @@ npm start
 | lint   | `npm run lint`  | Run static code analysis                        |
 | test   | `npm run test`  | Run unit tests                                  |
 
-## References
+## Tools
 
 | Item                   | Reference               |
 | ---------------------- | ----------------------- |
@@ -35,6 +35,15 @@ npm start
 | Mocha                  | https://mochajs.org/    |
 | Chai Assertion Library | https://www.chaijs.com/ |
 | ESLint                 | https://eslint.org/     |
+
+## References
+
+| Website       | Reference                  |
+| ------------- | -------------------------- |
+| Can I Use     | https://caniuse.com        |
+| Browserslist  | https://browsersl.ist      |
+| convertacolor | https://convertacolor.com/ |
+| Polyfill.io   | https://polyfill.io        |
 
 ## License
 
