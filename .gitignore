@@ -68,3 +68,7 @@ dist-ssr
 # parcel-bundler cache (https://parceljs.org/)
 .cache/
 .parcel-cache/
+
+# ignore non-npm lockfiles
+pnpm-lock.yaml
+yarn.lock
