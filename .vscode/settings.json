@@ -17,5 +17,8 @@
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false
-  }
+  },
+  "cSpell.words": [
+    "convertacolor"
+  ]
 }
