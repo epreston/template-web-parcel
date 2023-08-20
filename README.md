@@ -30,13 +30,15 @@ npm start
 
 ## Tools
 
-| Item                   | Reference               |
-| ---------------------- | ----------------------- |
-| Node.js                | https://nodejs.org/     |
-| Parcel                 | https://parceljs.org/   |
-| Mocha                  | https://mochajs.org/    |
-| Chai Assertion Library | https://www.chaijs.com/ |
-| ESLint                 | https://eslint.org/     |
+| Item                   | Reference                |
+| ---------------------- | ------------------------ |
+| Node.js                | https://nodejs.org/      |
+| Parcel                 | https://parceljs.org/    |
+| Mocha                  | https://mochajs.org/     |
+| Chai Assertion Library | https://www.chaijs.com/  |
+| ESLint                 | https://eslint.org/      |
+| Prettier               | https://prettier.io      |
+| EditorConfig           | https://editorconfig.org |
 
 ## References
 
