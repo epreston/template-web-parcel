@@ -11,9 +11,9 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.16.1 || >=20.0.0"
+    "node": ">=18.17.1 || >=20.0.0"
   },
-  "packageManager": "npm@9.6.2",
+  "packageManager": "npm@10.1.0",
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "scripts": {
     "clean": "rimraf dist/*",
@@ -23,8 +23,8 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "chai": "^4.3.7",
-    "eslint": "^8.48.0",
+    "chai": "^4.3.8",
+    "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "mocha": "^10.2.0",
     "parcel": "^2.9.3"
