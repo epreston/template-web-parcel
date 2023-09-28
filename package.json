@@ -11,7 +11,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.17.1 || >=20.0.0"
+    "node": ">=18.18.0 || >=20.0.0"
   },
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "scripts": {
@@ -22,8 +22,8 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "chai": "^4.3.8",
-    "eslint": "^8.49.0",
+    "chai": "^4.3.10",
+    "eslint": "^8.50.0",
     "eslint-config-prettier": "^9.0.0",
     "mocha": "^10.2.0",
     "parcel": "^2.9.3"
