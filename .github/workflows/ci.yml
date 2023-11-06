@@ -8,9 +8,11 @@ name: CI
 
 on:
   workflow_dispatch:
+
   push:
     branches: [ "main" ]
     paths-ignore: ['README.md', 'LICENSE', '.vscode/**']
+
   pull_request:
     branches: [ "main" ]
     paths-ignore: ['README.md', 'LICENSE', '.vscode/**']
@@ -30,10 +32,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [20.x]
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 50
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
