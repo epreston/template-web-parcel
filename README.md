@@ -1,4 +1,4 @@
-# Parcel Web Project
+# Parcel Template Web Project
 
 Repo Template: parcel, mocha-chai, eslint.
 
@@ -6,9 +6,7 @@ Repo Template: parcel, mocha-chai, eslint.
 
 ## Setup
 
-Download [Node.js](https://nodejs.org/en/download/).
-
-Run the following commands:
+Install [Node.js](https://nodejs.org/en/download/), create a new repository using this [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), download a local [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of your new repository, and run the following console commands within your local copy:
 
 ```bash
 # install dependencies
@@ -18,7 +16,7 @@ npm install
 npm start
 ```
 
-## Commands
+## NPM
 
 | Action | Command         | Description                                     |
 | ------ | --------------- | ----------------------------------------------- |
