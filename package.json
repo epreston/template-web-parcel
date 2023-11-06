@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "empty-parcel-project",
+  "name": "empty-template-project",
   "version": "0.2.3",
   "description": "Repo Template: parcel, mocha-chai, eslint.",
   "type": "module",
