@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "empty-project",
+  "name": "empty-parcel-project",
   "version": "0.2.3",
   "description": "Repo Template: parcel, mocha-chai, eslint.",
   "type": "module",
@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "chai": "^4.3.10",
-    "eslint": "^8.52.0",
+    "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "mocha": "^10.2.0",
-    "parcel": "^2.10.1"
+    "parcel": "^2.10.2"
   },
   "engines": {
     "node": "^18.18.0 || >=20.9.0"
