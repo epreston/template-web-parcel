@@ -19,9 +19,11 @@
     "test": "mocha"
   },
   "devDependencies": {
+    "@epreston/eslint-config": "^1.1.0",
+    "@epreston/prettier-config": "^1.0.0",
+    "@epreston/tsconfig": "^1.0.1",
     "chai": "^4.3.10",
     "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
     "mocha": "^10.2.0",
     "parcel": "^2.10.2"
   },
