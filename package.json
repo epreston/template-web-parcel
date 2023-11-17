@@ -33,13 +33,13 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.0",
-    "@epreston/prettier-config": "^1.0.0",
+    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.0.1",
     "chai": "^4.3.10",
     "eslint": "^8.53.0",
     "mocha": "^10.2.0",
-    "parcel": "^2.10.2",
+    "parcel": "^2.10.3",
     "rimraf": "^5.0.5"
   },
   "engines": {
