@@ -16,7 +16,7 @@ npm install
 npm start
 ```
 
-## NPM
+## Scripts
 
 | Action | Command         | Description                                     |
 | ------ | --------------- | ----------------------------------------------- |
@@ -30,22 +30,22 @@ npm start
 
 | Item                   | Reference                |
 | ---------------------- | ------------------------ |
-| Node.js                | https://nodejs.org/      |
-| Parcel                 | https://parceljs.org/    |
-| Mocha                  | https://mochajs.org/     |
-| Chai Assertion Library | https://www.chaijs.com/  |
-| ESLint                 | https://eslint.org/      |
+| Node.js                | https://nodejs.org       |
+| Parcel                 | https://parceljs.org     |
+| Mocha                  | https://mochajs.org      |
+| Chai Assertion Library | https://www.chaijs.com   |
+| ESLint                 | https://eslint.org       |
 | Prettier               | https://prettier.io      |
 | EditorConfig           | https://editorconfig.org |
 
 ## References
 
-| Website       | Reference                  |
-| ------------- | -------------------------- |
-| Can I Use     | https://caniuse.com        |
-| Browserslist  | https://browsersl.ist      |
-| convertacolor | https://convertacolor.com/ |
-| Polyfill.io   | https://polyfill.io        |
+| Website       | Reference                 |
+| ------------- | ------------------------- |
+| Can I Use     | https://caniuse.com       |
+| Browserslist  | https://browsersl.ist     |
+| convertacolor | https://convertacolor.com |
+| Polyfill.io   | https://polyfill.io       |
 
 ## License
 
