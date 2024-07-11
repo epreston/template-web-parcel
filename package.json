@@ -1,9 +1,9 @@
 {
   "private": true,
+  "type": "module",
   "name": "empty-template-project",
   "version": "1.1.0",
   "description": "Repo Template: parcel, mocha-chai, eslint.",
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -20,24 +20,20 @@
     "iOS >= 17.1",
     "not dead"
   ],
-  "eslintConfig": {
-    "root": true,
-    "extends": "@epreston/eslint-config"
-  },
   "prettier": "@epreston/prettier-config",
   "scripts": {
     "clean": "rimraf -g dist/*",
     "start": "parcel serve ./src/index.html",
     "build": "rimraf -g dist/* && parcel build ./src/index.html",
-    "lint": "eslint --ext .js --report-unused-disable-directives .",
+    "lint": "eslint --report-unused-disable-directives .",
     "test": "mocha"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.2",
+    "@epreston/eslint-config": "^2.0.0",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.2.0",
     "chai": "^5.1.1",
-    "eslint": "^8.57.0",
+    "eslint": "^9.6.0",
     "mocha": "^10.6.0",
     "parcel": "^2.12.0",
     "rimraf": "^5.0.8"
