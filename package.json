@@ -25,13 +25,13 @@
     "clean": "rimraf -g dist/*",
     "start": "parcel serve ./src/index.html",
     "build": "rimraf -g dist/* && parcel build ./src/index.html",
-    "lint": "eslint --report-unused-disable-directives .",
+    "lint": "eslint .",
     "test": "mocha"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.0.0",
-    "@epreston/prettier-config": "^2.0.0",
-    "@epreston/tsconfig": "^1.2.0",
+    "@epreston/eslint-config": "^2.1.1",
+    "@epreston/prettier-config": "^2.1.0",
+    "@epreston/tsconfig": "^1.2.1",
     "chai": "^5.1.1",
     "eslint": "^9.7.0",
     "mocha": "^10.6.0",
