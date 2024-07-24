@@ -20,6 +20,7 @@
     "iOS >= 17.1",
     "not dead"
   ],
+  "packageManager": "npm@10.7.0",
   "prettier": "@epreston/prettier-config",
   "scripts": {
     "clean": "rimraf -g dist/*",
