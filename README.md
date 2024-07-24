@@ -18,13 +18,14 @@ npm start
 
 ## Scripts
 
-| Action | Command         | Description                                     |
-| ------ | --------------- | ----------------------------------------------- |
-| clean  | `npm run clean` | Clear the production build in the "dist" folder |
-| build  | `npm run build` | Create a production build into "dist"           |
-| start  | `npm run start` | Start a dev server                              |
-| lint   | `npm run lint`  | Run static code analysis                        |
-| test   | `npm run test`  | Run unit tests                                  |
+| Action | Command          | Description                                     |
+| ------ | ---------------- | ----------------------------------------------- |
+| clean  | `npm run clean`  | Clear the production build in the "dist" folder |
+| build  | `npm run build`  | Create a production build into "dist"           |
+| start  | `npm run start`  | Start a dev server                              |
+| lint   | `npm run lint`   | Run static code analysis                        |
+| format | `npm run format` | Format source files                             |
+| test   | `npm run test`   | Run unit tests                                  |
 
 ## Tools
 
