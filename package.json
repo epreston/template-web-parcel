@@ -18,9 +18,9 @@
     "not dead"
   ],
   "prettier": "@epreston/prettier-config",
-  "packageManager": "npm@10.7.0",
+  "packageManager": "npm@10.8.2",
   "engines": {
-    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+    "node": "^18.20.4 || ^20.17.0 || >=22.7.0"
   },
   "scripts": {
     "clean": "rimraf -g dist/*",
