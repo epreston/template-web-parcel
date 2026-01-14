@@ -23,7 +23,7 @@
     "node": "^18.20.4 || ^20.17.0 || >=22.7.0"
   },
   "scripts": {
-    "clean": "rimraf -g dist/*",
+    "clean": "rimraf -g -v dist/*",
     "start": "parcel serve ./src/index.html",
     "build": "rimraf -g dist/* && parcel build ./src/index.html",
     "lint": "eslint .",
