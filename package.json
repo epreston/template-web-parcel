@@ -26,7 +26,7 @@
   "devDependencies": {
     "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.1",
-    "@epreston/tsconfig": "^1.2.1",
+    "@epreston/tsconfig": "^1.2.2",
     "chai": "^6.2.2",
     "eslint": "^10.0.0",
     "mocha": "^11.7.5",
