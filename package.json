@@ -28,7 +28,7 @@
     "@epreston/prettier-config": "^2.1.1",
     "@epreston/tsconfig": "^1.2.2",
     "chai": "^6.2.2",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.1",
     "mocha": "^11.8.0",
     "parcel": "^2.16.4",
     "prettier": "^3.9.6",
